@@ -1,1 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>Playon</title>
+</head>
+<body>
+    <div class="black-tab">
+        <img src="logo.jpeg" alt="Logo" class="logo">
+        <div class="menu-icon">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <div class="menu-items">
+          <div class="menu-item">Faixa Etária</div>
+          <div class="menu-item">Lançamentos</div>
+          <div class="menu-item">Gratuitos</div>
+          <div class="menu-item">Pagos</div>
+      </div>
+      <div class="action-button">
+        <button class="login.png">
+          <span class="button-text">Clique Aqui</span>
+      </button>
+      </div>
+    </div>
+    <div class="video-container">
+        <video autoplay loop muted>
+            <source src="space.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="square-container">
+        <div class="square purple">
+            <button class="play-button">
+            
+              </button>
+        </div>
+        <div class="square blue">
+          <button id="abrirBotao">Play</button>
+          <script>
+              document.getElementById("abrirBotao").addEventListener("click", function() {
+                  window.open("Caminho_Do_Programa.exe");
+              });
+          </script>
+        </div>
+        <div class="square green">
+            <button class="play-button">Play</button>
+        </div>
+        <div class="square red">
+            <button class="play-button">Play</button>
+        </div>
+        <div class="square orange">
+            <button class="play-button">Play</button>
+        </div>
+        <div class="square yellow">
+            <button class="play-button">Play</button>
+        </div>
+        <div class="square pink">
+            <button class="play-button">Play</button>
+        </div>
+        <div class="square purple">
+            <button class="play-button">Play</button>
+        </div>
+    </div>
+</body>
+</html>
 
